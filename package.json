@@ -1,12 +1,15 @@
 {
   "name": "plugin-extractor",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "repository": "https://github.com/MicroFish91/plugin-extractor.git",
+  "author": "MicroFish91 <mwfisher91@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "^18.11.9"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "fs-extra": "^10.1.0"
+  }
 }
